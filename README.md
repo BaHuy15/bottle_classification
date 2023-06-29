@@ -67,7 +67,7 @@ bottle_classification
 # Training
 
 Move to seg directory 
-    ```Shell
+    ``` Shell
     cd ~/bottle_classification/seg
     ```
     Start training
