@@ -66,20 +66,16 @@ bottle_classification
 
 # Training
 
-Move to seg directory 
-    ``` Shell           
-                   
-    cd ~/bottle_classification/seg        
+Start training                   
 
-    ```
-    Start training                   
+``` Shell  
+# Move to seg directory 
+cd ~/bottle_classification/seg                     
 
-    ``` Shell                     
-    
-    python3 segment/train.py --weights=/home/tonyhuy/TOMO/Instance_segmentation/yolov7_mask/seg/yolov5s-seg.pt \
-                             --data=/home/tonyhuy/bottle_classification/seg/data/coco.yaml \
-                             --hyp=/home/tonyhuy/bottle_classification/seg/data/hyps/hyp.scratch-med.yaml \
-                             --epochs=300 \
-                             --device=5 \
-    ```
+python3 segment/train.py --weights=/home/tonyhuy/TOMO/Instance_segmentation/yolov7_mask/seg/yolov5s-seg.pt \
+                            --data=/home/tonyhuy/bottle_classification/seg/data/coco.yaml \
+                            --hyp=/home/tonyhuy/bottle_classification/seg/data/hyps/hyp.scratch-med.yaml \
+                            --epochs=300 \
+                            --device=5 \
+```
 
