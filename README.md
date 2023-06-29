@@ -1,6 +1,6 @@
 # Bottle classification using YOLOv5
   
-In this project, we applied yolov5 to classify 4 type of bottle:                               
+In this project, we applied yolov5 to classify 4 type of bottles:                               
 - bottle_cap                           
 - bottle_uncap                            
 - fallen_bottle                      
