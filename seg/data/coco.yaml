@@ -1,0 +1,8 @@
+path: /home/tonyhuy/bottle_classification/data_bottle_detection/home/pevis/TOMO_detection/data_bottle_detection/train_data
+train: images/train
+val: images/val
+names:
+- bottle_cap
+- bottle_uncap
+- fallen_bottle
+- flip_bottle
