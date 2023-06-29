@@ -67,11 +67,14 @@ bottle_classification
 # Training
 
 Move to seg directory 
-    ``` Shell
-    cd ~/bottle_classification/seg
+    ``` Shell           
+                   
+    cd ~/bottle_classification/seg        
+
     ```
-    Start training
-    ``` Shell
+    Start training                   
+
+    ``` Shell                     
     
     python3 segment/train.py --weights=/home/tonyhuy/TOMO/Instance_segmentation/yolov7_mask/seg/yolov5s-seg.pt \
                              --data=/home/tonyhuy/bottle_classification/seg/data/coco.yaml \
