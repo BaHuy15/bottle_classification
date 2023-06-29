@@ -11,12 +11,17 @@ bottle_classification
     |
     |_____data_bottle_detection                                                                            
     |        |
-    |        |________test                                       
+    |        |________test 
+    |        |          |______.png #image file
+    |        |          |_______.png.json #Json file                          
     |        |
-    |        |________train                              
+    |        |________train
+    |        |          |______.png #image file
+    |        |          |_______.png.json #Json file                          
     |        |
     |        |_____train_data                       
-    |        |       |_________images                                         
+    |        |       |_________images
+    |        |       |                                 
     |        |       |_________labels                        
     |        |                                 
     |        |                       
