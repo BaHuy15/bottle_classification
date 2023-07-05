@@ -1,11 +1,12 @@
 # Dataset format
+``` shell 
 --> Train and validation data
     |
     |_____train
     |       |
-    |       |____.png
+    |       |____.png # image file 
     |       |
-    |       |_____.json
+    |       |_____.json # json file
     |
     |______val
     |       |
@@ -21,5 +22,7 @@
 --> Test data
     |
     |___ .png
+
+``` 
 
 
